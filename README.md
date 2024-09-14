@@ -24,9 +24,10 @@ Model Viewer application can be downloaded [here](https://github.com/Fuyutami/mo
 
    ![alt text](https://raw.githubusercontent.com/Fuyutami/modelviewerloader/master/demo/guide2.png)
   
-   - Set the mesh type to **Triangle** for optimal results.  
+   - Set the mesh type to **Triangle** for optimal results.
+      - **WARNING:** Quads are fine (Model Viewer can triangulate them), but **NGONS MUST NOT BE USED**.  
    - Adjust the **Mesh distance from original faces** setting to reduce file size.
-     - **Warning:** Do not try to make the mesh appear smooth in AutoCAD by setting this parameter too small, as this will unnecessarily increase the polygon count and result in a much larger file size.  
+     - **WARNING:** Do not try to make the mesh appear smooth in AutoCAD by setting this parameter too small, as this will unnecessarily increase the polygon count and result in a much larger file size.  
      - In the example below, a value of **5 units** is used for this distance, which works well for this particular model. Visible polygons on bevels will be automatically smoothed in Model Viewer.
     
      ![alt text](https://raw.githubusercontent.com/Fuyutami/modelviewerloader/master/demo/guide3.png)
