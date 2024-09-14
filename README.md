@@ -11,7 +11,7 @@ You can either host the Model Viewer Loader yourself (e.g., using GitHub Pages) 
 Model Viewer application can be downloaded [here](https://github.com/Fuyutami/modelviewer)
 <br/>
 
-## How to Prepare an AutoCAD Project for Import into Model Viewer
+# How to Prepare an AutoCAD Project for Import into Model Viewer
 
 1. **Set AutoCAD Units Correctly:**  
    Ensure that the units in AutoCAD are properly set. In the example below, if you want the model to have a width of 1 meter in Model Viewer, the Insertion Scale in AutoCAD should be set to millimeters.
@@ -41,7 +41,7 @@ Model Viewer application can be downloaded [here](https://github.com/Fuyutami/mo
    ![alt text](https://raw.githubusercontent.com/Fuyutami/modelviewerloader/master/demo/guide4.png)
 
 
-## Model Viewer F.A.Q.
+# Model Viewer F.A.Q.
 1.  **Model not visible after loading?** <br/>
 Ensure your Wi-Fi connection is stable and all project geometry in AutoCAD is converted to MESH.<br/>
 2.  **Model scale or location incorrect?** <br/>
